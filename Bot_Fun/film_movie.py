@@ -6,7 +6,7 @@ def mov(g,s,e,n):
 	querystring = {"genre": g, "startYear": s, "endYear": e, "limit": n}
 
 	headers = {
-		"X-RapidAPI-Key": "a93645818emsh99a8ce0cf75b203p1209bejsnf318c98f1ec7",
+		"X-RapidAPI-Key": "",
 		"X-RapidAPI-Host": "moviesdatabase.p.rapidapi.com"
 	}
 
