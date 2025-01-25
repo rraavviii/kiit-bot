@@ -137,7 +137,7 @@ def main():
         result = getjoke.getjokes()
         await update.message.reply_text(result)
 
-    app = ApplicationBuilder().token("7180723114:AAHuhvcq3nxhmxyR8vP4-Da3BHC5bPmp-OQ").build()
+    app = ApplicationBuilder().token("").build()
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("help", help))
     app.add_handler(CommandHandler("get_timetable", get_timetable))
